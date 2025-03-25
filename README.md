@@ -1,19 +1,34 @@
-# Next App Mantine Tailwind Template
+# Discord Colored Text Generator
 
-This is a minimal template for a Next.js project with Mantine v7 and Tailwind CSS v4.
+A simple web app that creates Discord-formatted ANSI text. Users can input text, select foreground and background colors using preset swatches, toggle bold/underline styles, and copy the resulting ANSI string for use in Discord messages.
 
-If you are looking for example with Tailwind CSS v3, you can find it at the [tw3](https://github.com/songkeys/next-app-mantine-tailwind-template/tree/tw3) branch.
+## Features
 
-## Development
+- **Custom Text Styling:**  
+  Toggle bold and underline styles for your text.
+- **Color Swatches:**  
+  Choose from preset foreground (FG) and background (BG) colors that map to 4-bit ANSI codes.
+- **Live Preview:**  
+  See a live preview of your styled text.
+- **ANSI Code Generation:**  
+  Generates a complete ANSI string wrapped in triple backticks (with the `ansi` language marker) that can be copied and pasted into Discord.
 
-Run the development server:
+## Technologies Used
 
-```bash
-npm run dev
-```
+- **React.js & Next.js** (with client-side rendering)
+- **Mantine UI Library:** For responsive layout and pre-styled UI components
+- **ANSI Escape Codes:** For text formatting in Discord
 
-## More information
+## Installation
 
-- [Mantine](https://mantine.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [tailwind-preset-mantine](https://github.com/songkeys/tailwind-preset-mantine)
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Abhinav-1904/VDAssignment.git
+   cd VDAssignment
+   ```
+2. **Install Dependencies:**
+   ```Using npm:
+   pnpm install
+   ```
+3. **Run the Development Server: Using npm:**
+   npm run dev
