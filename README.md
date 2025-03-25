@@ -34,5 +34,4 @@ A simple web app that creates Discord-formatted ANSI text. Users can input text,
 
    ```
    npm run dev
-
    ```
