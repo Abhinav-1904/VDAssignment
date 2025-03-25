@@ -31,4 +31,6 @@ A simple web app that creates Discord-formatted ANSI text. Users can input text,
    pnpm install
    ```
 3. **Run the Development Server: Using npm:**
-   npm run dev
+   ```npm run dev
+
+   ```
