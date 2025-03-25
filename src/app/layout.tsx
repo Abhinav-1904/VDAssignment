@@ -4,7 +4,6 @@ import {
   mantineHtmlProps,
   MantineProvider,
 } from "@mantine/core";
-import theme from "./theme";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -20,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
-        <ColorSchemeScript />
+        <ColorSchemeScript defaultColorScheme="dark" />
       </head>
       <body className="antialiased">
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MantineProvider>{children}</MantineProvider>
       </body>
     </html>
   );

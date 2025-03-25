@@ -61,8 +61,8 @@ const bgMap: Record<string, number> = {
 
 const DiscordColorGenerator = () => {
   const [text, setText] = useState("");
-  const [fgColor, setFgColor] = useState("#ff0000");
-  const [bgColor, setBgColor] = useState("#000000");
+  const [fgColor, setFgColor] = useState("");
+  const [bgColor, setBgColor] = useState("");
   const [isBold, setIsBold] = useState(false);
   const [isUnderlined, setIsUnderlined] = useState(false);
 
@@ -84,7 +84,7 @@ const DiscordColorGenerator = () => {
 
   const handleResetAll = () => {
     setText("");
-    setFgColor("white");
+    setFgColor("");
     setBgColor("");
     setIsBold(false);
     setIsUnderlined(false);
