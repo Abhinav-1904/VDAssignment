@@ -8,8 +8,8 @@ import theme from "./theme";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Next App Mantine Tailwind Template",
-  description: "Next App Mantine Tailwind Template",
+  title: "Discord Colored Text Generator",
+  description: "Discord Colored Text Generator",
 };
 
 export default function RootLayout({
